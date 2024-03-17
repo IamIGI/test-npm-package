@@ -10,3 +10,7 @@ export function sayHello({ firstName, lastName, age }: SayHelloProps) {
   if (lastName) console.log(`Your lastname is: ${lastName}`);
   if (age) console.log(`Your age is: ${age}`);
 }
+
+export function add(a: number, b: number) {
+  return a + b;
+}
