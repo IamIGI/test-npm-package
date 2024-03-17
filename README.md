@@ -1,12 +1,6 @@
 # TEST npm package
 
-A list of test functions
-
-# Instruction based on YT video:
-
-https://www.youtube.com/watch?v=xnfdm-s8adI
-
-# Instruction, to deploy npm
+# Instruction, to deploy npm package
 
 1. npm init
 2. Edit package.json data
@@ -14,11 +8,10 @@ https://www.youtube.com/watch?v=xnfdm-s8adI
 4. build your package
 5. npm run build
 6. Test your package:
-   1. npm pack (publishing package locally)
-   2. you created tgz file,
-   3. npm install < path_to_package_where_it_was_created >
-   4. run code in cli: node < file_name >.js
-   5. run in index.html
+   1. npm pack (publishing package locally, it created tgz file,)
+   2. npm install < path_to_package_where_it_was_created >
+   3. run code in cli: node < file_name >.js
+   4. run in index.html
       1. npm install -g browserify
       2. browserify index.js -o bundle.js (this will create fill with all required packages)
       3. import created file: <script src="bundle.js"></script>
