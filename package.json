@@ -21,5 +21,8 @@
   "devDependencies": {
     "tsup": "^8.0.2",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "test-npm-package-test-string": "file:test-npm-package-test-string-0.0.1.tgz"
   }
 }
