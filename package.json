@@ -6,7 +6,9 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "homepage": "https://google.com",
-  "repository": "https://github.com/IamIGI/test-npm-package",
+  "repository": {
+    "url": "https://github.com/IamIGI/test-npm-package"
+  },
   "scripts": {
     "build": "tsup"
   },
