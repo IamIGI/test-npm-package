@@ -20,12 +20,14 @@ https://www.youtube.com/watch?v=xnfdm-s8adI
 7. Publish package:
    1. npm adduser
    2. npm run build
-   3. npm publish (ast line returned is name of your package)
+   3. Push changes to git repository
+   4. npm publish (ast line returned is name of your package)
 8. Update packages
    1. npm adduser
    2. npm run build
-   3. Update version
-      1. npm patch (Increment the patch version 1.0.0 -> 1.0.1)
-      2. npm minor (1.0.0 -> 1.1.0)
-      3. npm major (1.0.0 -> 2.0.0)
-   4. npm publish (ast line returned is name of your package)
+   3. Push changes to git repository
+   4. Update version
+      1. npm version patch (Increment the patch version 1.0.0 -> 1.0.1)
+      2. npm version minor (1.0.0 -> 1.1.0)
+      3. npm version major (1.0.0 -> 2.0.0)
+   5. npm publish (ast line returned is name of your package)
